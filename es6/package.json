@@ -1,0 +1,9 @@
+{
+  "name": "es6",
+  "private": true,
+  
+  "scripts": {
+    "build": "tsc",
+    "clean": "tsc --build --clean"
+  }
+}

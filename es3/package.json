@@ -1,0 +1,9 @@
+{
+  "name": "es3",
+  "private": true,
+  
+  "scripts": {
+    "build": "tsc",
+    "clean": "tsc --build --clean"
+  }
+}

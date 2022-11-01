@@ -1,0 +1,9 @@
+{
+  "name": "commonjs",
+  "private": true,
+  
+  "scripts": {
+    "build": "tsc",
+    "clean": "tsc --build --clean"
+  }
+}

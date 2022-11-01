@@ -1,0 +1,21 @@
+{
+  "name": "nodes",
+  "private": true,
+  "version": "0.0.1",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "scripts": {
+    "build": "turbo run build",
+    "clean": "turbo run clean"
+  },
+  "workspaces": [
+    "commonjs",
+    "es3",
+    "es5",
+    "es6"
+  ],
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  }
+}
